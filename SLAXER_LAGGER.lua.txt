@@ -290,7 +290,7 @@ Separator.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 Separator.Parent = MainFrame
 
 local DiscordLabel = Instance.new("TextLabel")
-DiscordLabel.Text = "discord.gg/p3E77CCeJE"
+DiscordLabel.Text = "https://discord.gg/c5E7vx68b"
 DiscordLabel.Font = Enum.Font.GothamMedium
 DiscordLabel.TextColor3 = Color3.fromRGB(255, 100, 100) -- Matches title
 DiscordLabel.TextSize = 10
