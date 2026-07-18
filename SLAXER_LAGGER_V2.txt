@@ -160,7 +160,7 @@ local function loadMainUI()
     DiscordLabel.BackgroundTransparency = 1
     DiscordLabel.Position = UDim2.new(0, 10, 0, 27)
     DiscordLabel.TextColor3 = Color3.fromRGB(255, 80, 80)
-    DiscordLabel.Text = "discord.gg/p3E77CCeJE"
+    DiscordLabel.Text = "https://discord.gg/c5E7vx68b ديسكورد سيرفر 🥳"
     DiscordLabel.TextSize = 12
     DiscordLabel.Size = UDim2.new(1, -20, 0, 16)
     DiscordLabel.TextXAlignment = Enum.TextXAlignment.Left
