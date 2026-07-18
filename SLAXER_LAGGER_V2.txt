@@ -15,12 +15,12 @@ local LAGGER_CONFIG = isMobile and {TableIncrease = 290, Tries = 1, LoopWaitTime
 local CUSTOM_REMOTE_PATH = "RobloxReplicatedStorage.SetPlayerBlockList"
 local CONFIG_FILE_NAME = "voidxhub-lagger.config"
 
--- Purple Color Helper
+-- Red Color Helper (RED ONLY - Light & Dark Red)
 local function getRedSequence()
     return ColorSequence.new({
-        ColorSequenceKeypoint.new(0, Color3.fromRGB(120, 0, 255)),
-        ColorSequenceKeypoint.new(0.5, Color3.fromRGB(60, 0, 150)),
-        ColorSequenceKeypoint.new(1, Color3.fromRGB(120, 0, 255))
+        ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 50, 50)),
+        ColorSequenceKeypoint.new(0.5, Color3.fromRGB(180, 0, 0)),
+        ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 50, 50))
     })
 end
 
@@ -100,7 +100,7 @@ local function startLagger()
 end
 
 ----------------------------------------------------------------
--- MAIN UI CONSTRUCT (Cz lagger v2)
+-- MAIN UI CONSTRUCT (SLAXER LAGGER V2)
 ----------------------------------------------------------------
 local function loadMainUI()
     local ScreenGui = Instance.new("ScreenGui")
@@ -135,7 +135,7 @@ local function loadMainUI()
         while task.wait() do Gradient.Rotation = (Gradient.Rotation + 1.5) % 360 end
     end)
 
-    -- Title: Cz lagger v2
+    -- Title: SLAXER LAGGER V2
     local TitleLabel = Instance.new("TextLabel")
     TitleLabel.Font = Enum.Font.GothamBlack
     TitleLabel.BackgroundTransparency = 1
